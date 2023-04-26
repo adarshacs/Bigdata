@@ -1,0 +1,18 @@
+Index: demo2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"python files start\");\r\n# print(\"python file ended\")
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/demo2.py b/demo2.py
+--- a/demo2.py	(revision 4d50fdc4ef59e2223aba109372ae40a52d1b303e)
++++ b/demo2.py	(date 1682419298758)
+@@ -1,2 +1,4 @@
+ print("python files start");
+-# print("python file ended")
+\ No newline at end of file
++# print("python file ended")
++
++print("add 16:11")
+\ No newline at end of file
